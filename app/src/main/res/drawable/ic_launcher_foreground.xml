@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Calorie Progress Ring Track -->
+    <path
+        android:strokeColor="#264D7C59"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,26 A28,28 0 1,1 26,54" />
+    
+    <!-- Calorie Progress Ring Active Arc -->
+    <path
+        android:strokeColor="#10B981"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,26 A28,28 0 1,1 34.2,73.8" />
+    
+    <!-- Central Flame Core - Calorie / Energy Symbol -->
+    <!-- Outer Flame Body (Warm Orange-Red) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,36 C55.5,41 62,47 62,56 C62,62 57.5,66 54,66 C50.5,66 46,62 46,56 C46,50 51,44 54,36 Z" />
+    
+    <!-- Inner Flame Glow (Bright Yellow-Gold) -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M54,48 C55,51.5 58,54.5 58,58 C58,61 56,63 54,63 C52,63 50,61 50,58 C50,55 53,53 54,48 Z" />
+
+    <!-- Nutrition Green Leaf Accent -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M57,32 C62,32 66,35 66,40 C61,40 57,37 57,32 Z" />
+</vector>
